@@ -2,7 +2,7 @@
 Course Project for Coursera/Johns Hopkins Getting and Cleaning Data course
 ---
 title: "README"
-author: "Chris Nicoll"
+author: "clutterstack"
 date: "October 25, 2015"
 output: html_document
 ---

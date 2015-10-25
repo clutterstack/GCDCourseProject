@@ -44,7 +44,7 @@ Files in the Inertial Signals directories are not needed for the analysis done h
 
 ## Loading and merging the test and train data
 
-For each of the training and test sets, the subject/participant ID and activity ID data are added as columns to the 561-column "X" data set. The two resulting tables are combined into a single table with the same columns.
+For each of the training and test sets, the subject/participant ID and activity ID data are added as columns to the 561-column "X" data set. The two resulting tables are combined into a single table with the same (563) columns.
 
 ## Extracting mean and standard deviation values
 
@@ -80,11 +80,11 @@ Use the slightly more readable labels "Walking", "WalkingUpstairs", "WalkingDown
 
 ## Labelling the variables
 
-For readability, use regex matching in gsub() to remove brackets and hyphens; replace std and mean by StdDev and Mean; replace t with time and f with freq. Resulting name structure is described below.
+For readability, use regex matching in gsub() to remove brackets and hyphens; replace std and mean by StdDev and Mean; replace t with time and f with freq. Resulting name structure is described below, under **The tidy data set**.
 
 ## Calculating the mean for each activity/subject combination
 
-This script uses ```group_by()``` and ```summarise_each()``` to isolate each unique activity/subject combination and take the mean for each.
+This script uses ```group_by()``` and ```summarise_each()``` to isolate each unique activity/subject combination and take the mean of each measured/calculated variable for each.
 
 # The tidy data set
 

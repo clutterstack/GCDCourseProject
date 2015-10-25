@@ -1,10 +1,17 @@
 # GCDCourseProject
+
 Course Project for Coursera/Johns Hopkins Getting and Cleaning Data course
+
 ---
+
 title: "README"
+
 author: "clutterstack"
+
 date: "October 25, 2015"
+
 ---
+
 This is a course project for the Coursera/Johns Hopkins course "Getting and Cleaning Data". It contains a script, **run_analysis.R**, which performs an analysis on data from a UCI study of accelerometer and gyroscope data from Samsung smartphones. Further information on the experiment and data is at <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>.
 
 # Files in this repository:

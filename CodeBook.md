@@ -96,4 +96,4 @@ Column 1, **Activity**, contains the activity name, in factor form.
 
 Column 2, **Subject**, contains the ID number of the participant.
 
-The remaining 66 columns are the means requested. Names of the variables they belong to begin with ```time``` or ```freq```, depending on which domain the measurement belongs to. The type of signal is indicated by the next portion of the name, followed by ```Mean``` or ```StdDev``` to indicate whether this is a mean or standard deviation variable. Finally the axis is indicated with an ```X```, a ```Y```, or a ```Z```.
+The remaining 66 columns are the means requested. Names of the variables they belong to begin with ```time``` or ```freq```, depending on which domain the measurement belongs to. The type of signal is indicated by the next portion of the name, followed by ```Mean``` or ```StdDev``` to indicate whether this is a mean or standard deviation variable. Finally the axis is indicated with an ```X```, a ```Y```, or a ```Z```. As with the input data, these means are normalized in the range [-1,1].

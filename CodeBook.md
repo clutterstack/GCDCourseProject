@@ -1,6 +1,6 @@
 ---
 title: "CodeBook"
-author: "Chris Nicoll"
+author: "Clutterstack"
 date: "October 25, 2015"
 output: html_document
 ---

@@ -23,6 +23,8 @@ Obtain raw input data from
 
 Be sure that the script **run_analysis.R** is present in the same directory as the unzipped data; that is, the same directory as the data files **features.txt** and **activity\_labels.txt**, and the directories **test/** and **train/**.
 
+# Function of **run_analysis.R**
+
 This script does the following, as described in the assignment page:
 
 > 1. Merges the training and the test sets to create one data set.
